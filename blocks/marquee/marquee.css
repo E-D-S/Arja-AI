@@ -12,10 +12,10 @@
   overflow: hidden;
   white-space: nowrap;
   will-change: transform;
-  animation: marquee 30s linear infinite;
+  animation: marquee 60s linear infinite;
 }
 
 @keyframes marquee {
-  from { transform: translateX(500%); }
+  from { transform: translateX(100%); }
   to { transform: translateX(-50%); }
 }
