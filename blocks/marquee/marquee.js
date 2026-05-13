@@ -1,4 +1,4 @@
 export default function decorate(block) {
-  const singleLine = [...block.firstElementChild.children];
+  const singleLine = [...block.innerText];
   block.classList.add(`marquee-${singleLine.length}-singleLine`);
 }
